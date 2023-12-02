@@ -4,7 +4,7 @@ import numpy as np
 with open("02_input.txt") as f:
     data = f.readlines()
 
-# PART 1
+# inits
 criteria = {"red":12, "green":13, "blue":14}
 total = 0
 total_power = 0
